@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTI web</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="assets/css/normalize.css"> -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+
+</head>
+
+<body>
+    
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <!--foi usado javascript apenas para deixar a pagina mais fluida-->
+            <h1  onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">Logo</a>
+            </h1>
+            <nav>
+                
+                <ul  onclick="getElementById('close-menu').checked = false;"> 
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#grid-one">grid-one</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#contacts">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Centro de psicologia espaço acolhedor</h2>
+                <p>Bem-vindo ao nosso espaço acolhedor, onde você pode explorar suas emoções e encontrar o equilíbrio
+                    emocional.
+                    O Psicólogo João está aqui para guiá-lo em sua jornada de autodescoberta e crescimento pessoal.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/images/undraw_appreciate_it_re_yc8h.svg" alt="img intro">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="white-bg section">
+        <div class="about-content">
+            <h2>Sobre o consultorio</h2>
+            <p>No Espaço Acolhedor, oferecemos apoio profissional para superar desafios emocionais. Nossa
+                abordagem personalizada visa fortalecer sua resiliência e melhorar sua qualidade de vida. Sua saúde
+                mental é nossa prioridade. <br>
+                O consultório oferece um espaço seguro para discutir suas preocupações, desenvolver
+                habilidades de enfrentamento e alcançar bem-estar duradouro. Em um mundo agitado, nosso consultório é um
+                refúgio para sua paz interior. <br> Os profissionais utilizam abordagens terapêuticas eficazes para
+                ajudá-lo a
+                navegar por ansiedades, estresse e outros desafios emocionais.
+                Se embarcar em uma jornada de autoconhecimento é o seu objetivo, o espaço acolhedor é o ponto de
+                partida, orientamos você a compreender suas emoções, fortalecer relacionamentos e conquistar
+                uma vida mais plena.</p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My Grid</h2>
+            <p class="grid-description">Uma breve descrição.</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque
+                        doloribus
+                        nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad
+                        dolores
+                        provident maiores.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque
+                        doloribus
+                        nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad
+                        dolores
+                        provident maiores.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque
+                        doloribus
+                        nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad
+                        dolores
+                        provident maiores.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="white-bg section">
+        <div class="main-content ">
+            <h2 class="grid-gallery-heading">Galeria</h2>
+            <p class="grid-description-gallery">imagens aleatorias.</p>
+
+            <div class="grid">
+              <div class="gallery-img">
+                <img src="http://source.unsplash.com/random/360x360?r1" alt="random image from unsplash">
+              </div>
+              <div class="gallery-img">
+                <img src="http://source.unsplash.com/random/360x360?r2" alt="random image from unsplash">
+              </div>
+              <div class="gallery-img">
+                <img src="http://source.unsplash.com/random/360x360?r3" alt="random image from unsplash">
+              </div>
+              <div class="gallery-img">
+                <img src="http://source.unsplash.com/random/360x360?r4" alt="random image from unsplash">
+              </div>
+              <div class="gallery-img">
+                <img src="http://source.unsplash.com/random/360x360?r5" alt="random image from unsplash">
+              </div>
+              <div class="gallery-img">
+                <img src="http://source.unsplash.com/random/360x360?r6" alt="random image from unsplash">
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="section main-bg">
+        <div class="main-content intro-content ">
+            <div class="intro-text-content">
+                <h2 class="contacts-heading">Entre em contato</h2>
+                <p>Entre em contato com nossa equipe com a sua duvida!
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/images/undraw_contact_us_re_4qqt.svg" alt="img contato">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                       
+                  <div class="form-group">
+                    <label for="first-name">Primeiro nome</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Seu primeiro nome">
+                  </div>
+        
+                  <div class="form-group">
+                    <label for="last-name">Sobrenome</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                  </div>
+        
+                  <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                  </div>
+        
+                  <div class="form-group full-width">
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                  </div>
+        
+                  <div class="form-group full-width">
+                    <button type="submit">Enviar</button>
+                  </div>
+                </fieldset>
+              </div>  
+        </div>
+    </section>
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
